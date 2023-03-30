@@ -1,0 +1,38 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ReadOnly</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="../static/favicon/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">   
+    </head>
+    <body>
+        <main>
+            
+        <div class="logo">  <i class="fa-sharp fa-solid fa-book-open-reader"></i>ReadOnly</div>
+           
+        <div class="container">
+          <div class="container-img">
+            <img src="imgs/reader.png" alt="" id="mobileimg">
+          </div>
+          <div class="container-content">
+            <h1>Book Checklist</h1>
+            <p>
+              This tool makes it simple to identify the books you haven't read. after reading, you can check it off.
+            </p>
+            <form method="post" action="/">
+                <input type="text" name= "name" value="" placeholder="what is your name" autocomplete="off" required>
+                <div class="container-btns">
+                    <button class="btn3" name="startbtn" type="submit">Get Started</button>
+                  </div>
+            </form> 
+            
+          </div>
+        </div>
+       </main>
+    <%- include("footer") -%>
