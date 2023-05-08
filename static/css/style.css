@@ -1,6 +1,6 @@
 html {
     background-color: #EAE9FD;
-    background-image: -webkit-linear-gradient(65deg, #FFBCD1 50%, #E3DFFD 50%);
+    background-image: -webkit-linear-gradient(65deg, #FFBCD1 50%, #221b6f 50%);
     min-height: 100vh;
     font-family: 'Epilogue';
   }
@@ -52,10 +52,11 @@ html {
       font-size: 18px;
       text-align: center;
       font-style: italic;
+    color: #f1f1f1;
   }
   #heading {
   
-    background-color: #022E57;
+    background-color: #FFADAD;
     font-size: 15px;
     text-align: center;
   
@@ -222,7 +223,7 @@ footer {
 
 @media only screen and (min-width: 375px){
   html {
-    background-image: -webkit-linear-gradient(65deg,#FFADAD 50%, #E3DFFD   50%);
+    background-image: -webkit-linear-gradient(65deg,#FFADAD 50%, #221b6f  50%);
 }
   
 #heading {
